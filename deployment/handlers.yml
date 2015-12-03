@@ -1,0 +1,5 @@
+---
+
+- name: restart web frontend
+    action: service name={{ project_name  }}_gunicorn state=restarted
+          sudo_user: root

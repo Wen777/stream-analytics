@@ -1,0 +1,4 @@
+[production]
+www.PRODUCTION.com branch=master
+[testing]
+www.TESTING.com branch=develop

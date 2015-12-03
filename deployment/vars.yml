@@ -1,0 +1,21 @@
+---
+project_name: streamming-analytics
+project_root: $HOME/analytics
+project_repo: git@github.com:Wen777/stream-analytics.git
+system_packages:
+  - build-essential
+  - git
+  - libevent-dev
+  - python-dev
+  - python-setuptools
+  - redis-server
+  - postfix
+  # - nginx
+  # - postgresql
+  # - postgresql-server-dev-all
+
+python_packages:
+  - pip
+  - virtualenv
+initfiles:
+  - gunicorn
